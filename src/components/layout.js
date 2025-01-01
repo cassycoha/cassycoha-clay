@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Layout = (props) => {
   const data = useLocation();
@@ -40,7 +42,7 @@ const Layout = (props) => {
                 className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/bio`}>Bio</Link>
+                <Link to={`/bio`}>CV</Link>
               </li>
               <li
                 className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
@@ -76,29 +78,12 @@ const Layout = (props) => {
           <div className="site-head-right">
             <div className="social-links">
               <Link
-                to={`https://facebook.com/${social.facebook}`}
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </Link>
-              <Link
-                to={`https://instagram.com/${social.twitter}`}
+                to={`https://instagram.com/cassycoha`}
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
-              </Link>
-
-              <Link
-                to={`https://github.com/lilxyzz/gatsby-clay`}
-                title="Github"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
+                <FontAwesomeIcon icon={faInstagram}/>
               </Link>
             </div>
           </div>
@@ -111,22 +96,6 @@ const Layout = (props) => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built by {""}
-        <a
-          href="https://travislord.xyz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Travis Lord
-        </a>
-        {""} & {""}
-        <a
-          href="https://github.com/abdulwaqar844"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Abdul Waqar
-        </a>
       </footer>
     </div>
   );
