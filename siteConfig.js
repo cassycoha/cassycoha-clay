@@ -1,10 +1,10 @@
 const siteConfig = {
-  name: 'Clay',
-  shortName: 'Clay',
-  description: 'Clay - Personal Gatsby Theme',
+  name: 'Cassy Coha',
+  shortName: 'Cassy Coha',
+  description: 'Cassy Coha - Artwork Portfolio',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord & Abdul Waqar',
+  author: 'Cassy Coha',
   twitter: '' ,
   facebook:'',
   github:'',
