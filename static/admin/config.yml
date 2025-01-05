@@ -196,7 +196,7 @@ collections:
           - { label: "Numbering", name: "number", widget: "number" }
 
       - file: "src/pages/exhibitions/index.md"
-        label: "exhibitions"
+        label: "Exhibitions"
         name: "exhibitions"
         fields:
           - {

@@ -33,40 +33,22 @@ const Layout = (props) => {
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               <li
-                className={`nav-home  ${data.pathname === "/" ? "nav-current" : ""} `}
-                role="menuitem"
-              >
-                <Link to={`/`}>Home</Link>
-              </li>
-              <li
-                className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
-                role="menuitem"
-              >
-                <Link to={`/bio`}>CV</Link>
-              </li>
-              <li
                 className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/work`}>Work</Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/news") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/news`}>News</Link>
+                <Link to={`/bio`}>About</Link>
               </li>
               <li
                 className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/contact`}>Contact</Link>
-              </li>
-              <li
-                className={`nav-home  ${data.pathname.includes("/elements") ? "nav-current" : ""} `}
-                role="menuitem"
-              >
-                <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
           </nav>
@@ -83,7 +65,7 @@ const Layout = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faInstagram}/>
+                <span style="font-size: 20px"><FontAwesomeIcon icon={faInstagram}/></span>
               </Link>
             </div>
           </div>
