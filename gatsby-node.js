@@ -31,7 +31,7 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
 
-    Create blog posts pages.
+    // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges
     Template For blog-post
     const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'blog-post')
