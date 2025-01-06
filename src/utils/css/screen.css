@@ -72,8 +72,8 @@ body {
   max-width: 70%;
   margin: auto;
   text-align: center;
-   font-weight: 600;
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: 3rem;
 }
 
 .error-head {
@@ -115,7 +115,7 @@ body {
 .page-head-description {
   margin: 0 0 1.6vw;
   color: color(var(--color-border) l(-20%));
-  font-size: 2.2rem;
+  font-size: 3rem;
   line-height: 2em;
 }
 @media (max-width: 500px) {
@@ -148,7 +148,7 @@ footer.site-foot a {
   z-index: 300;
   margin-top: -10px;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .site-head-container {
@@ -166,7 +166,7 @@ footer.site-foot a {
   margin-right: 10px;
   white-space: nowrap;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .nav {
@@ -189,6 +189,8 @@ footer.site-foot a {
   padding: 10px 12px;
   color: var(--color-base);
   opacity: 0.4;
+  font-weight: 600;
+  font-size: 3rem;
 }
 
 .nav-current a,
@@ -376,6 +378,8 @@ footer.site-foot a {
   .site-head-open .site-head-right {
     z-index: 9999;
     height: auto;
+    font-weight: 600;
+    font-size: 3rem;
     transition: height 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   }
 
@@ -385,6 +389,8 @@ footer.site-foot a {
     transition: transform 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99),
       opacity 0.9s cubic-bezier(0.4, 0.01, 0.165, 0.99);
     transform: scale(1) translateY(0px);
+    font-weight: 600;
+    font-size: 3rem;
   }
   .site-head-open .nav-current a {
     border-bottom: var(--color-base) 2px solid;
