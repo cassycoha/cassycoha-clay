@@ -33,19 +33,19 @@ const Layout = (props) => {
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               <li
-                className={`nav-home  ${data.pathname.includes("/#") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/#`}><h6>Work</h6></Link>
+                <Link to={`/work`}><h6>Work</h6></Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/#") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/bio`}><h6>About</h6></Link>
               </li>
               <li
-                className={`nav-home  ${data.pathname.includes("/#") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/contact`}><h6>Contact</h6></Link>
