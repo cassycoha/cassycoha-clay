@@ -72,8 +72,6 @@ body {
   max-width: 70%;
   margin: auto;
   text-align: center;
-   font-weight: 600;
-  font-size: 2rem;
 }
 
 .error-head {
@@ -328,7 +326,7 @@ footer.site-foot a {
   .site-head-right a {
     padding: 5px 0;
     margin: 1px 0;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
   .nav {
     width: 100%;
