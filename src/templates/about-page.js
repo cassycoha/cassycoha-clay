@@ -7,14 +7,14 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
-const BioPage = (props) => {
+const aboutPage = (props) => {
 
 
     const { markdownRemark: post, site } = props.data;
 
     return (
         <Layout location={props.location} title={site.siteMetadata.title } social={site.siteMetadata.social}>
-        <Seo keywords={[`Bio`, `Cassy Coha`, `Indianapolis Artist`]}
+        <Seo keywords={[`Makerspace`, `Cassy Coha`, `Indianapolis Artist`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
           image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
@@ -48,14 +48,14 @@ const BioPage = (props) => {
     );
 };
 
-BioPage.propTypes = {
+aboutPage.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default BioPage;
+export default aboutPage;
 
-export const BioPageQuery = graphql`
-  query BioPage {
+export const aboutPageQuery = graphql`
+  query aboutPage {
     site {
         siteMetadata {
           title
@@ -65,7 +65,7 @@ export const BioPageQuery = graphql`
           }
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "bio-page"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "about-page"}}) {
         frontmatter {
           title
           description
