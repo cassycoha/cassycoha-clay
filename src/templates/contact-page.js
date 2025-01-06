@@ -108,15 +108,14 @@ const ContactPage = ({ data }, location) => {
                 />
               </div>
               {/* Break */}
-              {/* General, Purchase, Commissions, Exhibitions, Gallery Feature, Other */}
+              {/* General, Purchase, Commissions, Exhibitions, Other */}
               <div className="col-12">
                 <select name="category" id="category" onChange={handleChange} required={true}>
-                  <option value>-Nature of Enquiry-</option>
+                  <option value>'I was wondering about...'</option>
                   <option value={"General"}>General</option>
-                  <option value={"Purchase"}>Purchase</option>
+                  <option value={"Purchase"}>Purchases</option>
                   <option value={"Commissions"}>Commissions</option>
                   <option value={"Exhibitions"}>Exhibitions</option>
-                  <option value={"Gallery Feature"}>Gallery Feature</option>
                   <option value={"Other"}>Other</option>
                 </select>
               </div>
