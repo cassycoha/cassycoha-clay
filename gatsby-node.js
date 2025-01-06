@@ -49,16 +49,88 @@ exports.createPages = ({ graphql, actions }) => {
       },
      })
      })
-    // Template For work-sub-page
-    const workPage = posts.filter(item => item.node.frontmatter.templateKey === 'work-sub-page')
-    workPage.forEach((post, index) => {
-      const previous = index === workPage.length - 1 ? null : workPage[index + 1].node
-      const next = index === 0 ? null : workPage[index - 1].node
+    // Template For sculpture-sub-page
+    const sculpturePage = posts.filter(item => item.node.frontmatter.templateKey === 'sculpture-sub-page')
+    sculpturePage.forEach((post, index) => {
+      const previous = index === sculpturePage.length - 1 ? null : sculpturePage[index + 1].node
+      const next = index === 0 ? null : sculpturePage[index - 1].node
 
       createPage({
         path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
         component: path.resolve(
-          `src/templates/work-sub-page.js`
+          `src/templates/sculpture-sub-page.js`
+        ),
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
+        // Template For furniture-sub-page
+    const furniturePage = posts.filter(item => item.node.frontmatter.templateKey === 'furniture-sub-page')
+    furniturePage.forEach((post, index) => {
+      const previous = index === furniturePage.length - 1 ? null : furniturePage[index + 1].node
+      const next = index === 0 ? null : furniturePage[index - 1].node
+
+      createPage({
+        path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
+        component: path.resolve(
+          `src/templates/furniture-sub-page.js`
+        ),
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
+        // Template For craft-objects-sub-page
+    const craftObjectsPage = posts.filter(item => item.node.frontmatter.templateKey === 'craft-objects-sub-page')
+    craftObjectsPage.forEach((post, index) => {
+      const previous = index === craftObjectsPage.length - 1 ? null : craftObjectsPage[index + 1].node
+      const next = index === 0 ? null : craftObjectsPage[index - 1].node
+
+      createPage({
+        path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
+        component: path.resolve(
+          `src/templates/craft-objects-sub-page.js`
+        ),
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
+        // Template For stitchscapes-sub-page
+    const stitchscapesPage = posts.filter(item => item.node.frontmatter.templateKey === 'stitchscapes-sub-page')
+    stitchscapesPage.forEach((post, index) => {
+      const previous = index === stitchscapesPage.length - 1 ? null : stitchscapesPage[index + 1].node
+      const next = index === 0 ? null : stitchscapesPage[index - 1].node
+
+      createPage({
+        path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
+        component: path.resolve(
+          `src/templates/stitchscapes-sub-page.js`
+        ),
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
+        // Template For sketches-sub-page
+    const sketchesPage = posts.filter(item => item.node.frontmatter.templateKey === 'sketches-sub-page')
+    sketchesPage.forEach((post, index) => {
+      const previous = index === sketchesPage.length - 1 ? null : sketchesPage[index + 1].node
+      const next = index === 0 ? null : sketchesPage[index - 1].node
+
+      createPage({
+        path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
+        component: path.resolve(
+          `src/templates/sketches-sub-page.js`
         ),
         context: {
           slug: post.node.fields.slug,
@@ -88,8 +160,11 @@ exports.createPages = ({ graphql, actions }) => {
     //   Template logic for landing pages
     const allPage = posts.filter(item =>
       item.node.frontmatter.templateKey !== 'blog-post' &&
-      item.node.frontmatter.templateKey !== 'work-sub-page' &&
-      item.node.frontmatter.templateKey !== 'exhibitions-sub-page')
+      item.node.frontmatter.templateKey !== 'sculpture-sub-page' &&
+      item.node.frontmatter.templateKey !== 'furniture-sub-page' &&
+      item.node.frontmatter.templateKey !== 'craft-objects-sub-page' &&
+      item.node.frontmatter.templateKey !== 'stitchscapes-sub-page' &&
+      item.node.frontmatter.templateKey !== 'sketches-sub-page')
     allPage.forEach((post, index) => {
       const previous = index === allPage.length - 1 ? null : allPage[index + 1].node
       const next = index === 0 ? null : allPage[index - 1].node

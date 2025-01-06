@@ -13,9 +13,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "work"
-    label: "Work"
-    folder: "src/content/work"
+  - name: "sculpture"
+    label: "Sculpture"
+    folder: "src/content/sculpture"
     create: true
     slug: "{{slug}}"
     fields:
@@ -23,7 +23,131 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "work-sub-page",
+          default: "sculpture-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "furniture"
+    label: "Furniture"
+    folder: "src/content/furniture"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "furniture-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "craft-objects"
+    label: "Craft Objects"
+    folder: "src/content/craft-objects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "craft-objects-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "stitchscapes"
+    label: "Stitchscapes"
+    folder: "src/content/stitchscapes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "stitchscapes-sub-page",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          choose_url: false,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD/MM/YYYY",
+          time_format: "hh:mm a",
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          picker_utc: false,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "sketches"
+    label: "Sketches"
+    folder: "src/content/sketches"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "sketches-sub-page",
         }
       - {
           label: "Thumbnail",
@@ -97,15 +221,103 @@ collections:
             }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - file: "src/pages/work/index.md"
-        label: "Work"
-        name: "work"
+      - file: "src/pages/sculpture/index.md"
+        label: "Sculpture"
+        name: "sculpture"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "work-page",
+              default: "sculpture-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+
+      - file: "src/pages/furniture/index.md"
+        label: "Furniture"
+        name: "furniture"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "furniture-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+
+      - file: "src/pages/craft-objects/index.md"
+        label: "Craft Objects"
+        name: "craft-objects"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "craft-objects-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+
+      - file: "src/pages/stitchscapes/index.md"
+        label: "Stitchscapes"
+        name: "stitchscapes"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "stitchscapes-page",
+            }
+          - {
+              label: "Thumbnail",
+              name: "thumbnail",
+              widget: image,
+              choose_url: false,
+            }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Numbering", name: "number", widget: "number" }
+
+      - file: "src/pages/sketches/index.md"
+        label: "Sketches"
+        name: "sketches"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "sketches-page",
             }
           - {
               label: "Thumbnail",
