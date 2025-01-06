@@ -36,19 +36,19 @@ const Layout = (props) => {
                 className={`nav-home  ${data.pathname.includes("/") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/work`}>Work</Link>
+                <Link to={`/work`}><h6>Work</h6></Link>
               </li>
               <li
                 className={`nav-home  ${data.pathname.includes("/bio") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/bio`}>About</Link>
+                <Link to={`/bio`}><h6>About</h6></Link>
               </li>
               <li
                 className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/contact`}>Contact</Link>
+                <Link to={`/contact`}><h6>Contact</h6></Link>
               </li>
             </ul>
           </nav>
@@ -65,7 +65,7 @@ const Layout = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faInstagram}/>
+                <h5><FontAwesomeIcon icon={faInstagram}/></h5>
               </Link>
             </div>
           </div>
