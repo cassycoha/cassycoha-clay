@@ -145,7 +145,8 @@ footer.site-foot a {
   position: relative;
   z-index: 300;
   margin-top: -10px;
-  font-size: 1.35rem;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .site-head-container {
@@ -162,6 +163,8 @@ footer.site-foot a {
   align-items: center;
   margin-right: 10px;
   white-space: nowrap;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .nav {
@@ -183,10 +186,7 @@ footer.site-foot a {
   margin: 0;
   padding: 10px 12px;
   color: var(--color-base);
-  font-weight: 600;
   opacity: 0.4;
-  font-size: 2rem;
-  line-height: 1em;
 }
 
 .nav-current a,
