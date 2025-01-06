@@ -73,7 +73,7 @@ body {
   margin: auto;
   text-align: center;
   font-weight: 600;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .error-head {
@@ -115,12 +115,12 @@ body {
 .page-head-description {
   margin: 0 0 1.6vw;
   color: color(var(--color-border) l(-20%));
-  font-size: 3em;
+  font-size: 3rem;
   line-height: 2em;
 }
 @media (max-width: 500px) {
   .page-head-description {
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -148,7 +148,7 @@ footer.site-foot a {
   z-index: 300;
   margin-top: -10px;
   font-weight: 600;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .site-head-container {
@@ -190,7 +190,7 @@ footer.site-foot a {
   color: var(--color-base);
   opacity: 0.4;
   font-weight: 600;
-  font-size: 3em !important;
+  font-size: 3rem !important;
 }
 
 .nav-current a,
@@ -213,8 +213,8 @@ footer.site-foot a {
   display: block;
   padding: 10px;
   color: var(--color-base);
-  font-size: 3em;
-  line-height: 3em;
+  font-size: 3rem;
+  line-height: 1em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -228,7 +228,7 @@ footer.site-foot a {
   display: block;
   margin-top: 2px;
   width: auto;
-  height: 60px;
+  height: 28px;
 }
 
 .site-head-right {
@@ -243,7 +243,7 @@ footer.site-foot a {
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  font-size: 3em;
+  font-size: 2rem;
   line-height: 1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -255,7 +255,7 @@ footer.site-foot a {
   padding: 4px 10px;
   border: var(--color-base) 1px solid;
   color: var(--color-base);
-  font-size: 3em;
+  font-size: 1.2rem;
   line-height: 1em;
   border-radius: 10px;
   opacity: 0.8;
@@ -301,7 +301,7 @@ footer.site-foot a {
   .site-head-container {
     flex-direction: column;
     justify-content: flex-start;
-    height: 80px;
+    height: 40px;
     background: rgba(255, 255, 255, 0);
     z-index: -1;
     transition: all 0.4s ease-out;
@@ -319,7 +319,7 @@ footer.site-foot a {
   .site-head-right a {
     margin: 8px 0;
     padding: 1px 0;
-    font-size: 2.6em !important;
+    font-size: 2.6rem !important;
     line-height: 1.15em;
     font-weight: 200;
     opacity: 0;
@@ -330,7 +330,7 @@ footer.site-foot a {
   .site-head-right a {
     padding: 5px 0;
     margin: 1px 0;
-    font-size: 2.6em;
+    font-size: 2.6rem;
   }
   .nav {
     width: 100%;
@@ -379,7 +379,7 @@ footer.site-foot a {
     z-index: 9999;
     height: auto;
     font-weight: 600;
-    font-size: 3em !important;
+    font-size: 3rem !important;
     transition: height 0.2s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   }
 
@@ -390,7 +390,7 @@ footer.site-foot a {
       opacity 0.9s cubic-bezier(0.4, 0.01, 0.165, 0.99);
     transform: scale(1) translateY(0px);
     font-weight: 600;
-    font-size: 3em !important;
+    font-size: 3rem !important;
   }
   .site-head-open .nav-current a {
     border-bottom: var(--color-base) 2px solid;
