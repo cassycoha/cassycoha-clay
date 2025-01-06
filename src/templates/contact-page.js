@@ -111,7 +111,7 @@ const ContactPage = ({ data }, location) => {
               {/* General, Purchase, Commissions, Exhibitions, Other */}
               <div className="col-12">
                 <select name="category" id="category" onChange={handleChange} required={true}>
-                  <option value>'I was wondering about...'</option>
+                  <option value disabled selected hidden>What’s the topic of your message?</option>
                   <option value={"General"}>General</option>
                   <option value={"Purchase"}>Purchases</option>
                   <option value={"Commissions"}>Commissions</option>
@@ -151,8 +151,6 @@ const ContactPage = ({ data }, location) => {
                   required={true}
                 />
               </div>
-              
-              <div data-netlify-recaptcha="true"></div>
   
               {/* Break */}
               <div className="col-12">
@@ -163,6 +161,9 @@ const ContactPage = ({ data }, location) => {
                       defaultValue="Send Message"
                       className="primary"
                     />
+                  </li>
+                  <li>
+                   <div data-netlify-recaptcha="true"></div>
                   </li>
 
                 </ul>
