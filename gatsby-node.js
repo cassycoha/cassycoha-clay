@@ -30,9 +30,8 @@ exports.createPages = ({ graphql, actions }) => {
     if (result.errors) {
       throw result.errors
     }
-
     const posts = result.data.allMarkdownRemark.edges
-    Template For blog-post
+    // Template For blog-post
     const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'blog-post')
     blogPost.forEach((post, index) => {
     const previous = index === blogPost.length - 1 ? null : blogPost[index + 1].node
