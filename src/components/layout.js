@@ -33,7 +33,7 @@ const Layout = (props) => {
           <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               <li
-                className={`nav-home  ${data.pathname.includes("/work") ? "nav-current" : ""} `}
+                className={`nav-home  ${data.pathname.includes("/") ? "nav-current" : ""} `}
                 role="menuitem"
               >
                 <Link to={`/work`}>Work</Link>
