@@ -65,7 +65,7 @@ const Layout = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5><FontAwesomeIcon icon={faInstagram}/></h5>
+                <h4><FontAwesomeIcon icon={faInstagram}/></h4>
               </Link>
             </div>
           </div>
