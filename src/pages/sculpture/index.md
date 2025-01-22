@@ -2,10 +2,10 @@
 templateKey: sculpture-page
 pagetype:
   - main
-thumbnail: /img/clay-images-15.jpg
+thumbnail: /img/sculpture.jpg
 title: Sculpture
 number: 0
-featuredimage: /img/clay-images-15.jpg
+featuredimage: /img/sculpture.jpg
 date: 2023-03-10T10:17:05.133Z
 description: Sculpture
 ---
