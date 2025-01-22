@@ -1,20 +1,26 @@
 ---
 templateKey: about-page
-thumbnail: /img/clay-image-1.jpg
+thumbnail: /img/about.jpg
 date: 2023-03-02T10:17:05.133Z
 title: About
-description: A stunning Gatsby theme designed for captivating image-centric
-  websites, perfect for photographers, portfolios, and more.
-featuredimage: /img/clay-image-1.jpg
+description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron School of Art and Design, and studied Integrative Studio Practice focusing in Furniture Design and Sculpture with a minor in Book Arts. She is currently living and creating work in Indianapolis, Indiana.
+featuredimage: /img/about.jpg
 ---
-![clay-images-11](/img/clay-images-11.jpg)
 
-![clay-images-12](/img/clay-images-12.jpg)
+"Combining materials in my sculptural work creates a new language that playfully intertwines the craft of paper, fiber and wood. In my work, across mediums, sewing demonstrates strength and utility, despite the activity's implication of delicacy. I want my work to feel whimsical while allowing for deeper signifigance and personal connection."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.
-
-
-
-<a href="https://unsplash.com/@tomcrewceramics" target="_blank">Image credits - Tom Crew</a>
+<p> 2024 Haystack Faculty Exhibition, Haystack Mountain School of Crafts | Deer Isle, ME </p>
+<p> 2022 Tiny Show XI, Gallery 924 | Indianapolis, IN </p>
+<p> 2022 Wrapped in Autumn, Nickel Plate Arts | Noblesville, IN </p>
+<p> 2022 Post-it Show, Chromatic Collective | Indianapolis, IN </p>
+<p> 2021 Tiny Show X, Gallery 924 | Indianapolis, IN </p>
+<p> 2021 Post-it Show, Chromatic Collective | Indianapolis, IN </p>
+<p> 2020 National Society of Arts and Letters Exhibition, John Waldron Arts Center | Bloomington, IN </p>
+<p> 2020 Post-it Show, Murphy Arts Center | Indianapolis, IN </p>
+<p> 2019 Organic, Art Association of Randolph County Arts Depot | Union City, IN </p>
+<p> 2019 Book Arts Capstone Exhibition, Eskanazi Hall Herron Arts Library | Indianapolis, IN </p>
+<p> 2019 Growth Rings, Eskanazi Fine Arts Center | Indianapolis, IN </p>
+<p> 2019 First Impressions: A Printmaking Exhibition, Eskenazi Fine Arts Center | Indianapolis, IN </p>
+<p> 2019 Monochromatic, Eskenazi Fine Arts Center | Indianapolis, IN </p>
 
 
