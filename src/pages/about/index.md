@@ -9,18 +9,18 @@ featuredimage: /img/about.jpg
 
 "Combining materials in my sculptural work creates a new language that playfully intertwines the craft of paper, fiber and wood. In my work, across mediums, sewing demonstrates strength and utility, despite the activity's implication of delicacy. I want my work to feel whimsical while allowing for deeper signifigance and personal connection."
 
-<p> 2024 Haystack Faculty Exhibition, Haystack Mountain School of Crafts | Deer Isle, ME </p>
-<p> 2022 Tiny Show XI, Gallery 924 | Indianapolis, IN </p>
-<p> 2022 Wrapped in Autumn, Nickel Plate Arts | Noblesville, IN </p>
-<p> 2022 Post-it Show, Chromatic Collective | Indianapolis, IN </p>
-<p> 2021 Tiny Show X, Gallery 924 | Indianapolis, IN </p>
-<p> 2021 Post-it Show, Chromatic Collective | Indianapolis, IN </p>
-<p> 2020 National Society of Arts and Letters Exhibition, John Waldron Arts Center | Bloomington, IN </p>
-<p> 2020 Post-it Show, Murphy Arts Center | Indianapolis, IN </p>
-<p> 2019 Organic, Art Association of Randolph County Arts Depot | Union City, IN </p>
-<p> 2019 Book Arts Capstone Exhibition, Eskanazi Hall Herron Arts Library | Indianapolis, IN </p>
-<p> 2019 Growth Rings, Eskanazi Fine Arts Center | Indianapolis, IN </p>
-<p> 2019 First Impressions: A Printmaking Exhibition, Eskenazi Fine Arts Center | Indianapolis, IN </p>
-<p> 2019 Monochromatic, Eskenazi Fine Arts Center | Indianapolis, IN </p>
+<p> 2024 Haystack Faculty Exhibition, Haystack Mountain School of Crafts <br> Deer Isle, ME </p>
+<p> 2022 Tiny Show XI, Gallery 924 <br> Indianapolis, IN </p>
+<p> 2022 Wrapped in Autumn, Nickel Plate Arts <br> Noblesville, IN </p>
+<p> 2022 Post-it Show, Chromatic Collective <br> Indianapolis, IN </p>
+<p> 2021 Tiny Show X, Gallery 924 <br> Indianapolis, IN </p>
+<p> 2021 Post-it Show, Chromatic Collective <br> Indianapolis, IN </p>
+<p> 2020 National Society of Arts and Letters Exhibition, John Waldron Arts Center <br> Bloomington, IN </p>
+<p> 2020 Post-it Show, Murphy Arts Center <br> Indianapolis, IN </p>
+<p> 2019 Organic, Art Association of Randolph County Arts Depot <br> Union City, IN </p>
+<p> 2019 Book Arts Capstone Exhibition, Eskanazi Hall Herron Arts Library <br> Indianapolis, IN </p>
+<p> 2019 Growth Rings, Eskanazi Fine Arts Center <br> Indianapolis, IN </p>
+<p> 2019 First Impressions: A Printmaking Exhibition, Eskenazi Fine Arts Center <br> Indianapolis, IN </p>
+<p> 2019 Monochromatic, Eskenazi Fine Arts Center <br> Indianapolis, IN </p>
 
 
