@@ -2,10 +2,10 @@
 templateKey: furniture-page
 pagetype:
   - main
-thumbnail: /img/lily-pad-tiered-table-2.jpg
+thumbnail: /img/furniture.jpg
 title: Furniture
 number: 1
-featuredimage: /img/lily-pad-tiered-table-2.jpg
+featuredimage: /img/furniture.jpg
 date: 2023-03-10T10:17:05.133Z
 description: Furniture
 ---
