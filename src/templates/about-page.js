@@ -33,7 +33,7 @@ const aboutPage = (props) => {
             <div className="post-content-image">
               <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
-                className="kg-about"
+                className="kg-image"
                 alt={post.frontmatter.title} />
             </div>
           )}
