@@ -3,7 +3,7 @@ templateKey: about-page
 thumbnail: /img/about.jpg
 date: 2023-03-02T10:17:05.133Z
 title: About
-description:
+description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron School of Art and Design, and studied Integrative Studio Practice focusing in Furniture Design and Sculpture with a minor in Book Arts. She is currently living and creating work in Indianapolis, Indiana.
 featuredimage: /img/about.jpg
 ---
 
@@ -42,4 +42,3 @@ featuredimage: /img/about.jpg
 <p> <i>2019 Growth Rings</i>, Eskanazi Fine Arts Center | Indianapolis, IN <p/>
 <p> <i>2019 First Impressions: A Printmaking Exhibition</i>, Eskenazi Fine Arts Center | Indianapolis, IN <p/>
 <p> <i>2019 Monochromatic</i>, Eskenazi Fine Arts Center | Indianapolis, IN <p/>
-
