@@ -2,10 +2,10 @@
 heading: Main Heading
 subheading: Sub Heading
 templateKey: index-page
-thumbnail: /img/clay-images-7.jpg
-featuredimage: /img/clay-images-7.jpg
+thumbnail: /img/about.jpg
+featuredimage: /img/about.jpg
 title: Work
-image: /img/clay-images-7.jpg
+image: /img/about.jpg
 description: " "
 ---
 \
