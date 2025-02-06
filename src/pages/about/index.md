@@ -3,19 +3,22 @@ templateKey: about-page
 thumbnail: /img/about.jpg
 date: 2023-03-02T10:17:05.133Z
 title: About
-description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron School of Art and Design, and studied Integrative Studio Practice focusing in Furniture Design and Sculpture with a minor in Book Arts. She is currently living and creating work in Indianapolis, Indiana.
+description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron
+  School of Art and Design, and studied Integrative Studio Practice focusing in
+  Furniture Design and Sculpture with a minor in Book Arts. She is currently
+  living and creating work in Indianapolis, Indiana.
+number: 0
+pagetype:
+  - main
 featuredimage: /img/about.jpg
 ---
-
 <h2> Education </h2>
 2016 - 2020 | Herron School of Art and Design | Indianapolis, IN <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BFA, Integrative Studio Practice: Furniture Design & Sculpture
 
 <h2> Professional Experience </h2>
-<p> Herron School of Art & Design | Adjunct Faculty | January 2025 - Present <p/>
+<p> Herron School of Art & Design | Adjunct Faculty | January 2025 - Present <p/><p> Fishers Maker Playground | Makerspace Staff | June 2021 - Present <p/>
 <p> Haystack Mountain School of Crafts | Session Fab Lab Studio Assistant | August 2024 <p/>
-<p> Fishers Maker Playground | Makerspace Staff | June 2021 - Present <p/>
-<p> Art Association of Randolph County | Artist In Residence | July - December 2020 <p/>
-<p> Ignite Studio at Hamilton East Public Library | Studio Assistant | April - June 2021 <p/>
+<p> Ignite Studio at Hamilton East Public Library | Studio Assistant | April - June 2021 <p/><p> Art Association of Randolph County | Artist In Residence | July - December 2020 <p/>
 <p> Project One Studio | Project Fabrication Assistant | February - April 2019 <p/>
 <p> Girls Rock! Music Youth Camp | Volunteer Workshop Instructor, Programming Committee Chair, Board Member | July 2014 - June 2022 <p/>
 
