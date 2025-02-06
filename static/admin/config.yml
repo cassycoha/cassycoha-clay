@@ -216,7 +216,7 @@ collections:
               name: "pagetype",
               widget: "select",
               multiple: true,
-              min: 1,
+              min: 0,
               options: [{ label: "Main", value: "main" }],
             }
           - { label: "Body", name: "body", widget: "markdown" }
