@@ -3,10 +3,12 @@ templateKey: about-page
 thumbnail: /img/about.jpg
 date: 2023-03-02T10:17:05.133Z
 title: About
-description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron
-  School of Art and Design, and studied Integrative Studio Practice focusing in
-  Furniture Design and Sculpture with a minor in Book Arts. She is currently
-  living and creating work in Indianapolis, Indiana.
+description: Based in Indianapolis, Indiana, Cassy Coha earned a Bachelor of
+  Fine Arts degree in 2020 at Herron School of Art and Design, focusing in
+  Furniture Design and Sculpture with a minor in Book Arts. Since then, Cassy
+  has stayed closely involved with maker and artist communities, sharing
+  knowledge and continuing to make work. One of Cassy's many talents includes
+  being a certified goofball.
 number: 0
 featuredimage: /img/about.jpg
 ---
