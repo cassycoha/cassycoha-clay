@@ -207,18 +207,8 @@ collections:
               widget: image,
               choose_url: false,
             }
-          - { label: "Date", name: "date", widget: "date" }
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: Title, name: title, widget: string }
           - { label: "Description", name: "description", widget: "string" }
-          - { label: "Numbering", name: "number", widget: "number" }
-          - {
-              label: "Page Type",
-              name: "pagetype",
-              widget: "select",
-              multiple: true,
-              min: 0,
-              options: [{ label: "Main", value: "main" }],
-            }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "src/pages/sculpture/index.md"

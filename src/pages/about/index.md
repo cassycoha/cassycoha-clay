@@ -8,8 +8,6 @@ description: Cassy Coha earned a Bachelor of Fine Arts degree in 2020 at Herron
   Furniture Design and Sculpture with a minor in Book Arts. She is currently
   living and creating work in Indianapolis, Indiana.
 number: 0
-pagetype:
-  - main
 featuredimage: /img/about.jpg
 ---
 <h2> Education </h2>
