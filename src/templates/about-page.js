@@ -48,10 +48,6 @@ const aboutPage = (props) => {
     );
 };
 
-aboutPage.propTypes = {
-    data: PropTypes.object.isRequired,
-};
-
 export default aboutPage;
 
 export const aboutPageQuery = graphql`
